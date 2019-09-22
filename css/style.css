@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
 html {
   width: 100%;
   margin: auto;
@@ -31,14 +31,6 @@ header{
   width: 480px;
 }
 
-main h2{
-  margin-top: 10px;
-  text-align: center;
-  font-family:'Modak', cursive;
-  font-size: 38px;
-  color: rgb(179, 67, 47);
-}
-
 
 #container{
   width: 800px;
@@ -66,7 +58,7 @@ container img:hover{
 text-align: center;
 line-height: 1.5;
 text-transform: uppercase;
-font-family: 'Modak', cursive;
+font-family: 'Mansalva', cursive;
 font-size: 30px;
 }
 #results ul {
@@ -74,8 +66,8 @@ font-size: 30px;
   width: 310px;
   margin: auto;
   text-transform: uppercase;
-  font-family: 'Annie Use Your Telescope', cursive;
-  font-size: 26px;
+  font-family: 'Turret Road', cursive;
+  font-size: 18px;
 }
 footer{
   background: rgb(14, 173, 14);
