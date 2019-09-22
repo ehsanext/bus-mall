@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
 html {
   width: 100%;
   margin: auto;
@@ -15,94 +15,37 @@ html {
 body{
   height: 100%;
 }
-  /* header */
+
 header{
   overflow: auto;
   width: 100%;
-  background: rgb(14, 173, 14);
   height: 120px;
 }
 
 
-.logo  {
+.myhead  {
+  font-size: 30px;
   float: left;
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 650px;
+  margin-top: 40px;
   width: 480px;
 }
-.logo h3{
-  margin-top: 20px;
-}
-.logo img {
-  float:left;
-  height: 100px;
-  width: 190px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-.logo a {
-  color: rgb(204, 60, 60);
-  font-family: 'Pacifico', cursive;
-  font-size: 48px;
-  border-radius: 10px;
-  padding: 5px;
-  text-decoration: none;
-  margin: auto;
-}
-.logo h3:hover{
-  transform: scale(1.1);
-}
-nav ul {
-  display: flex;
-  font-size: 26px;
-}
-nav{
-  float: right;
-  margin: 0 20px;
-}
-nav a {
-  margin: 5px;
-  text-decoration: none;
-  color: white;
-  line-height: 100px;
-  padding: 7px;
-  border-radius: 10px;
-  background: rgb(7, 145, 7);
-  
-}
-
-nav a:hover{
-  background:rgb(95, 221, 95);
-  transform: scale(1.1);
-}
-
-main h2{
-  margin-top: 10px;
-  text-align: center;
-  font-family:'Modak', cursive;
-  font-size: 38px;
-  color: rgb(179, 67, 47);
-}
 
 
-#item-container{
+#container{
   width: 800px;
   margin: 20px auto;
   padding: 25px;
-  border: 2px solid rgb(188, 185, 202);
-  border-radius: 10px;
-  background: rgb(238, 236, 245);
 }
 
-#item-container img{
+#container img{
   width: 230px;
   margin: 10px;
   border: 2px solid rgb(187, 186, 186);
   padding: 5px;
   transition: transform .2s;
 }
-#item-container img:hover{
+container img:hover{
   transform: scale(1.1);
 }
 #results h2 {
@@ -115,7 +58,7 @@ main h2{
 text-align: center;
 line-height: 1.5;
 text-transform: uppercase;
-font-family: 'Modak', cursive;
+font-family: 'Mansalva', cursive;
 font-size: 30px;
 }
 #results ul {
@@ -123,8 +66,8 @@ font-size: 30px;
   width: 310px;
   margin: auto;
   text-transform: uppercase;
-  font-family: 'Annie Use Your Telescope', cursive;
-  font-size: 26px;
+  font-family: 'Turret Road', cursive;
+  font-size: 18px;
 }
 footer{
   background: rgb(14, 173, 14);
